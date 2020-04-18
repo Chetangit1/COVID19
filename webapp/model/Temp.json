@@ -1,0 +1,21 @@
+ [{
+ 	"text": "Kerala",
+
+ 	"nodes": [{
+ 		"text": "Thrissur"
+
+ 	}, {
+ 		"text": "Alappuzha"
+
+ 	}]
+ }, {
+ 	"text": "Maharashtra",
+ 	"nodes": [{
+ 		"text": "Pune"
+
+ 	}, {
+ 		"text": "Mumbai"
+
+ 	}]
+
+ }]

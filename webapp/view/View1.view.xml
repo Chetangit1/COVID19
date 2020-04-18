@@ -1,0 +1,24 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="NOVEL.THECOVID19.controller.View1" displayBlock="true">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>title}">
+					<content>
+						<!--<List noDataText="Drop list items here" id="list0">-->
+						<!--    <items>-->
+						<!--        <StandardListItem type="Navigation" title="Pune" description="{/Maharashtra/districtData/Pune/confirmed}" icon="sap-icon://picture" id="item0"/>-->
+						<!--      <StandardListItem type="Navigation" title="Mumbai" description="{/Maharashtra/districtData/Mumbai/confirmed}" icon="sap-icon://picture" id="item1"/>-->
+						<!--    </items>-->
+						<!--</List>-->
+						<Tree id="Tree" items="{path: '/'}">
+							 <StandardTreeItem title="{text}-{value}" />
+						</Tree>
+						<!--<Tree id="Tree2" items="{path: '/Maharashtra'}">-->
+						<!--	<StandardTreeItem title="{/districtData/Pune/confirmed}" />-->
+						<!--</Tree>-->
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
